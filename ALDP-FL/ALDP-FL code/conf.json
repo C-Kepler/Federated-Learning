@@ -1,0 +1,29 @@
+{
+	"model_name" : "alexnet",
+
+	"no_models" :10,
+
+	"c" :1,
+	
+	"type" : "MNIST",
+	
+	"global_epochs" :50,
+	
+	"local_epochs" :3,
+	
+	"batch_size" :64,
+	
+	"lr" : 0.005,
+	
+	"momentum" : 0.0001,
+	
+	"lambda" : 1,
+	
+	"dp" : false,
+
+	"sigma" : 0.001,
+	
+	"q" : 0.1,
+	
+	"W" : 1
+}
